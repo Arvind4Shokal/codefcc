@@ -4,7 +4,7 @@ body{
 }
 .main-box{
 	position:relative;
-  height:480px;
+ 	 height:480px;
 	width:320px;
 	margin:auto;
 	padding:8px;
@@ -27,7 +27,7 @@ h4{
 	margin-left:5px;
 	margin-right:5px;
 }
-#input_val{
+#input_val1{
 	position: absolute;
 	right:5px;
 	font-size:15px;
@@ -48,3 +48,5 @@ text-align:center;
 	padding-top:2px;
 	
 }
+.material-icons.purple900 { color: #4A148C; }
+
