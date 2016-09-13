@@ -1,0 +1,50 @@
+body{
+   margin-top:50px;
+	color:#880e4f;
+}
+.main-box{
+	position:relative;
+  height:480px;
+	width:320px;
+	margin:auto;
+	padding:8px;
+}
+h4{
+	position:relative;
+	color:#ad1457;
+	font-size:15px;
+	margin:5px;
+	left:230px;
+	font-family:'Poiret One',cursvie;
+	
+}
+.input-field{
+	height:120px;
+	border-style:solid;
+	border-width:.5px;
+	border-color:#fce4ec;
+	margin-bottom:10px;
+	margin-left:5px;
+	margin-right:5px;
+}
+#input_val{
+	position: absolute;
+	right:5px;
+	font-size:15px;
+
+}
+#input_val2{
+	position: absolute;
+	right:5px;
+	font-size:20px;
+}
+.button-field{
+text-align:center;
+}
+.btn-large{
+	width:23%;
+}
+.button-line{
+	padding-top:2px;
+	
+}
