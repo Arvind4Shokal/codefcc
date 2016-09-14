@@ -2,30 +2,29 @@
 <html>
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 <body>
-<div class="main-box container">
-	<div class="row">
-		<div class=" search-box col s6">
-			<input type="text" name="squery" id="queryText"  class="input-field col s6" value="" placeholder="Search">
-			<a id="searchButton" class="btn waves-effect waves-light"><i class="material-icons">search</i></a>
-		</div>
-		<div class="col s6">
+<div id="main-con" class="main-box container">
+
+			<input type="text" name="squery" id="queryText"  class="input-field " value="" placeholder="Search">
+			<div class="Buttons">
+			<a id="searchButton" class="btn waves-effect waves-light"><i class="material-icons">search</i>Wiki Search</a>
 			<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" class="waves-effect waves-light btn">Random Article</a>
-		</div>
-	</div>
-	<ul class="search-list" >
-	</ul>
+			</div>
+			<ul class="search-list">
+	
+</ul>
+	
 </div>
 
 
 
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="js/wiki.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/wiki.js"></script>
 </body>
 
 </html>

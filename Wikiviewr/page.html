@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<base href="https://en.wikipedia.org">
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+function pageWiki(searchTerm){
+  $.ajax({
+    url:'https://en.wikipedia.org/w/api.php?action=parse&format=json&page='+searchTerm,
+    type : 'GET',
+     dataType : 'jsonp',
+    success: function(json){
+   // $("main-box").append(json.parse.text['*']);
+    $("body").append('<p>'+json.parse.text['*']+'</p>');
+},
+    error:function(errorText){
+      console.log(errorText);
+    }
+  });
+}
+	$(document).ready(function(){
+		pageWiki(window.location.hash.substr(1));
+	});
+</script>
+</body>
+
+</html>
