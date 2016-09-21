@@ -44,9 +44,16 @@ text-align:center;
 .btn-large{
 	width:23%;
 }
+#btn-Ans{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	 text-transform: lowercase;
+}
 .button-line{
 	padding-top:2px;
 	
 }
+
 .material-icons.purple900 { color: #4A148C; }
 

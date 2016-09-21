@@ -4,10 +4,15 @@ var ans=0;
 function changeResult(buttId){
 	var buttVal=buttId.slice(4);
 	/* console.log(buttVal); */
-	if(buttVal=="ca"||buttVal=="co"||buttVal=="equal")
+	if(buttVal=="ca"||buttVal=="co"||buttVal=="equal"|| buttVal=="Ans")
 		{
 			if(buttVal=="ca"){
 				res="";
+				$("#input_val2").text(res);
+				$("#input_val1").text("Ans= "+ans);
+			}
+			else if(buttVal=="Ans"){
+				res=res.concat(ans);
 				$("#input_val2").text(res);
 				$("#input_val1").text("Ans= "+ans);
 			}
